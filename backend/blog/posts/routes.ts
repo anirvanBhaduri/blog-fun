@@ -1,3 +1,10 @@
+/**
+ * TODO: no error handling currently in any of the routes.
+ *
+ * This will be addressed when we decide to expand on the backend
+ * more. This is only here to enable frontend development.
+ */
+
 import express, { Router, RequestHandler } from 'express';
 import asyncHandler from 'express-async-handler';
 import { PostRepository, SqlitePostRepository } from './repository';
